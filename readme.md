@@ -77,6 +77,7 @@ Covered...
         - `mx-4` - Adds 16px margin to the right and left
         - `my-4` - Adds 16px margin to the top and bottom
         - `mt-4` - Adds 16px margin to the top
+        - `mt-[20px]` - custom way of adding 20px margin to the top
 
     2. Padding
         - `p-0` - This will add a padding of 0px all around.
@@ -90,3 +91,10 @@ Covered...
         - `px-4` - Adds 16px padding to the right and left
         - `py-4` - Adds 16px padding to the top and bottom
         - `pt-4` - Adds 16px padding to the top
+        - `pt-[20px]` - custom way of adding 20px padding to the top
+
+    3. space between
+        You can add space between children elements by adding classes `space-x-4` or `space-y-4`
+        i.e 
+        `<div class="flex mt-24 space-x-4"><div>item 1</div><div>item 2</div><div>item 3</div><div>item 4</div><div>item 5</div><div>item 6</div><div>item 7</div></div>`
+        
