@@ -98,7 +98,7 @@ Covered...
         i.e 
         `<div class="flex mt-24 space-x-4"><div>item 1</div><div>item 2</div><div>item 3</div><div>item 4</div><div>item 5</div><div>item 6</div><div>item 7</div></div>`
 
-- [x] typpography
+- [x] typography
     **reference native fonts**
     create a custom script tag i.e
     > <script>
@@ -168,3 +168,29 @@ Covered...
     *normal-case*, *uppercase*, *lowercase*, *capitalize*
     example as:-
     `<div class="normal-case">Tailwind is awesome</div>`
+- [x] sizing
+    sizing units resemble more or less those of padding and margin i.e 
+
+    `w-4` implying that an element has a width of **1 rem**
+    example:
+     `<div class="bg-black text-white w-12">Hello</div>`
+
+     The width units as of heigh can only go from **1 to a max of 96**
+
+     - **percentages**
+        The percentage is added a fractional measure to the *w-*
+        `<div class="bg-green-700 text-white w-1/4">Hello</div>`
+     - **viewport width**
+        To fill in the viewport equivalent to **vw=100** sizing in css 
+     `<div class="bg-blue-500 text-white w-screen">Hello</div>`
+     - **100% container**
+        This will fill up the width horizontally.
+     `<div class="bg-blue-300 text-white w-full">Hello</div>`
+     - **arbitrary**
+        A custom width can be provided in units as pixels in square brackets.
+     `<div class="bg-blue-700 text-white w-[300px]">Hello</div>`
+     -**max width**
+        Equated to filling up the screen via it's width, you can use this *max-w-lg* to fill up the width in lg screens making it possible to customize pages as per your liking to their equivalent devices.
+     `<div class="bg-gray-300 max-w-lg mx-auto ">quisquam?</div>`
+`
+    
