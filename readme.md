@@ -62,5 +62,31 @@ Covered...
 
         colour code example:
         `<div class="bg-[#427fab]">Hex Code</div> <div class="bg-[rgb(255,0,0)]">RGB colour code</div>`
+- [x] container-spacing
+    adding the container class to the parent div is equivalent to having the container class on bootstrap. It introduces breakpoints within which elements contained in it as it's children abide by.
+    More about spacing.
+    1. Margin
+        - `m-0` - This will add a margin of 0px all around.
+            Ideally **m** initializes a margin to the element followed by a unit.
+        - `ml-4` - This will add **16px** margin to the left of the element.
+        
+        > in terms of units *4 units* represents **1 rem** or **16px**
 
-colours can also be added in a myriad of ways adding the customization ability of all this.
+        - `mt-4` - Adds 16px margin to the top
+        - `mb-4` - Adds 16px margin to the bottom
+        - `mx-4` - Adds 16px margin to the right and left
+        - `my-4` - Adds 16px margin to the top and bottom
+        - `mt-4` - Adds 16px margin to the top
+
+    2. Padding
+        - `p-0` - This will add a padding of 0px all around.
+            Ideally **p** initializes a padding to the element followed by a unit.
+        - `pl-4` - This will add **16px** padding to the left of the element.
+        
+        > in terms of units *4 units* represents **1 rem** or **16px**
+
+        - `pt-4` - Adds 16px padding to the top
+        - `pb-4` - Adds 16px padding to the bottom
+        - `px-4` - Adds 16px padding to the right and left
+        - `py-4` - Adds 16px padding to the top and bottom
+        - `pt-4` - Adds 16px padding to the top
