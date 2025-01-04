@@ -126,7 +126,7 @@ Covered...
 
     usage falls back to:
 
-    > <p class="font-tapestry">Tailwind is awesome</p>
+    `<p class="font-tapestry">Tailwind is awesome</p>`
 
     **font sizing**
     fonts come in various sizes from:
@@ -138,21 +138,21 @@ Covered...
     font weights can be:
     light, normal, medium, semibold or bold
     example:
-    > <div class="font-bold">Tailwind is awesome</div>
+    `<div class="font-bold">Tailwind is awesome</div>`
 
     **letter spacing**
     options are: *tracking-tight*, *tracking-normal* or *tracking-wide*
     example:-
-    >  <div class="tracking-tight">Tailwind is awesome</div>
+    `<div class="tracking-tight">Tailwind is awesome</div>`
 
     **text alignment**
     options: *text-left*, *text-center*, *text-right*
     example:-
-    > <div class="text-left">Tailwind is awesome</div>
+    `<div class="text-left">Tailwind is awesome</div>`
 
     **text decoration**
     like the outline, we can add a text decoration as seen below.
-    > <div class="underline decoration-4 decoration-dashed decoration-blue-400">Tailwind is awesome</div>
+    `<div class="underline decoration-4 decoration-dashed decoration-blue-400">Tailwind is awesome</div>`
 
     Decorations come in various varities i.e
         - dotted
@@ -161,10 +161,10 @@ Covered...
         - double
     
     An offset can be applied to the underline as a class as seen below
-    > <div class="underline decoration-4 decoration-blue-400 underline-offset-8">Tailwind is awesome</div>
+    `<div class="underline decoration-4 decoration-blue-400 underline-offset-8">Tailwind is awesome</div>`
 
     **text-transform**
     Under text transform we have 4 classes:
     *normal-case*, *uppercase*, *lowercase*, *capitalize*
     example as:-
-    > <div class="normal-case">Tailwind is awesome</div>
+    `<div class="normal-case">Tailwind is awesome</div>`
