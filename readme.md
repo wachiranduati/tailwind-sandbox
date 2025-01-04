@@ -97,4 +97,74 @@ Covered...
         You can add space between children elements by adding classes `space-x-4` or `space-y-4`
         i.e 
         `<div class="flex mt-24 space-x-4"><div>item 1</div><div>item 2</div><div>item 3</div><div>item 4</div><div>item 5</div><div>item 6</div><div>item 7</div></div>`
-        
+
+- [x] typpography
+    **reference native fonts**
+    create a custom script tag i.e
+    > <script>
+        tailwind.config = {
+            theme: {
+            fontFamily: {
+            'sans': ['ui-sans-serif', 'system-ui'],
+            'serif': ['serif', 'Georgia'],
+            'mono': ['ui-monospace', 'SFMono-Regular'],
+            }
+        }
+        }
+        </script>
+
+    now referencing the fonts can easily be done as so
+    `<p class="font-sans">Tailwind is awesome</p>`
+    `<p class="font-serif">Tailwind is awesome</p>`
+    `<p class="font-mono">Tailwind is awesome</p>`
+
+    **reference external fonts**
+    import the custom font via it's cdn link i.e google font links in the header i.e Tapestry font
+    then simply add it to the tailwind font family object
+
+    > 'tapestry': ['tapestry', 'Georgia']
+
+    usage falls back to:
+
+    > <p class="font-tapestry">Tailwind is awesome</p>
+
+    **font sizing**
+    fonts come in various sizes from:
+    > text-xs, text-sm, text-base,text-lg, text-xl
+
+    `<div class="text-9xl">Tailwind is awesome</div>` 
+
+    **font weight**
+    font weights can be:
+    light, normal, medium, semibold or bold
+    example:
+    > <div class="font-bold">Tailwind is awesome</div>
+
+    **letter spacing**
+    options are: *tracking-tight*, *tracking-normal* or *tracking-wide*
+    example:-
+    >  <div class="tracking-tight">Tailwind is awesome</div>
+
+    **text alignment**
+    options: *text-left*, *text-center*, *text-right*
+    example:-
+    > <div class="text-left">Tailwind is awesome</div>
+
+    **text decoration**
+    like the outline, we can add a text decoration as seen below.
+    > <div class="underline decoration-4 decoration-dashed decoration-blue-400">Tailwind is awesome</div>
+
+    Decorations come in various varities i.e
+        - dotted
+        - dashed
+        - wavy
+        - double
+    
+    An offset can be applied to the underline as a class as seen below
+    > <div class="underline decoration-4 decoration-blue-400 underline-offset-8">Tailwind is awesome</div>
+
+    **text-transform**
+    Under text transform we have 4 classes:
+    *normal-case*, *uppercase*, *lowercase*, *capitalize*
+    example as:-
+    > <div class="normal-case">Tailwind is awesome</div>
